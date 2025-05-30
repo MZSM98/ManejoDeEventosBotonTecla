@@ -1,4 +1,4 @@
-package com.example.manejodeeventos;
+package com.example.manejoeventobotontecla;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
@@ -24,7 +24,7 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
 
-        com.example.proyectoaplicacoinesdeescritorio.GestionBoton gb = new com.example.proyectoaplicacoinesdeescritorio.GestionBoton(botonPrueba, textPrueba);
+        GestionBoton gb = new GestionBoton(botonPrueba, textPrueba);
         botonPrueba.setOnAction(gb);
         textPrueba.setOnAction(gb);
 

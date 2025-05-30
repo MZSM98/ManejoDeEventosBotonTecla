@@ -1,4 +1,4 @@
-package com.example.proyectoaplicacoinesdeescritorio;
+package com.example.manejoeventobotontecla;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

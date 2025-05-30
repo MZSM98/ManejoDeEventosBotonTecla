@@ -27,6 +27,7 @@ public class GestionBoton implements EventHandler<ActionEvent> {
         try (PrintWriter escritor = new PrintWriter (new FileWriter(archivo))){
             escritor.println(textPrueba.getText());
             escritor.flush();
+            textPrueba.setText("");
 
         } catch (IOException e){
             System.out.println("Error al crear el archivo");
